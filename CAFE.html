@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Café Aroma</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Café Aroma</div>
+    <div id="hamburger" class="hamburger">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Café Aroma</h1>
+      <p>Your daily cup of artisanal perfection.</p>
+      <a class="btn" href="#menu">Discover Menu</a>
+    </div>
+    <img src="hero-coffee.jpg" alt="Coffee mug" class="hero-img">
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>At Café Aroma, we believe each cup tells a story. From bean to brew, experience quality and passion in every sip.</p>
+  </section>
+
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item"><h3>Espresso</h3><p>₹120</p></div>
+      <div class="item"><h3>Cappuccino</h3><p>₹150</p></div>
+      <div class="item"><h3>Latte</h3><p>₹160</p></div>
+      <div class="item"><h3>Cold Brew</h3><p>₹180</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form action="#" class="contact-form">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Message" rows="4"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Café Aroma</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
